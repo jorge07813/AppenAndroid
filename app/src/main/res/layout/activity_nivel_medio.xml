@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".NivelMedio">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Question 1 -->
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. What is the past tense of the verb 'to go'?"
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+
+        <RadioGroup
+            android:id="@+id/answers1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="goes" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="went" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="gone" />
+        </RadioGroup>
+
+        <!-- Question 2 -->
+        <TextView
+            android:id="@+id/question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Which sentence uses 'would' correctly?"
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+
+        <RadioGroup
+            android:id="@+id/answers2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I would go to the park." />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I would going to the park." />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I would went to the park." />
+        </RadioGroup>
+
+        <!-- Question 3 -->
+        <TextView
+            android:id="@+id/question3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Choose the correct negative form: 'She ___ come to the party.'"
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+
+        <RadioGroup
+            android:id="@+id/answers3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="can not" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="could not" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="will not" />
+        </RadioGroup>
+
+        <!-- Question 4 -->
+        <TextView
+            android:id="@+id/question4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Fill in the blank: 'He ___ be happy tomorrow if he gets the job.'"
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+
+        <RadioGroup
+            android:id="@+id/answers4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="can" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="could" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="will" />
+        </RadioGroup>
+
+        <!-- Question 5 -->
+        <TextView
+            android:id="@+id/question5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Which sentence uses 'could' correctly?"
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+
+        <RadioGroup
+            android:id="@+id/answers5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I could run fast when I was young." />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I could running fast when I was young." />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I could runs fast when I was young." />
+        </RadioGroup>
+
+        <!-- Question 6 -->
+        <TextView
+            android:id="@+id/question6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. What is the future tense of 'to read'?"
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+
+        <RadioGroup
+            android:id="@+id/answers6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="will read" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="reads" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="reading" />
+        </RadioGroup>
+
+        <!-- Question 7 -->
+        <TextView
+            android:id="@+id/question7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7. Choose the correct sentence with 'would' in the negative form:"
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+
+        <RadioGroup
+            android:id="@+id/answers7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I would not go to the party." />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I would no go to the party." />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I would not goes to the party." />
+        </RadioGroup>
+
+        <!-- Question 8 -->
+        <TextView
+            android:id="@+id/question8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8. What is the present tense of 'to have'?"
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+
+        <RadioGroup
+            android:id="@+id/answers8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="have" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="has" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="having" />
+        </RadioGroup>
+
+        <!-- Question 9 -->
+        <TextView
+            android:id="@+id/question9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9. Fill in the blank: 'They ___ finished the project by tomorrow.'"
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+
+        <RadioGroup
+            android:id="@+id/answers9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="can" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="could" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="will have" />
+        </RadioGroup>
+
+        <!-- Question 10 -->
+        <TextView
+            android:id="@+id/question10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10. Choose the correct sentence with 'could' in the negative form:"
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+
+        <RadioGroup
+            android:id="@+id/answers10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I could not find my keys." />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I could not finds my keys." />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I could no find my keys." />
+        </RadioGroup>
+
+    </LinearLayout>
+</ScrollView>
